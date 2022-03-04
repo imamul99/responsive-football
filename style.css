@@ -222,144 +222,124 @@ main {
         height: 427px;
     }
 
-    .subscribe {
-        width: 705px;
+
+    /* Mobile devices */
+    @media only screen and (max-width:688px) {
+        header {
+            height: 695px;
+        }
+
+        .container {
+            max-width: 100%;
+        }
+
+        .blog-section {
+            width: 100%;
+            margin-top: 47px;
+        }
+
+        .menu {
+            display: none;
+        }
+
+        .nav-bar {
+            display: none;
+        }
+
+
+        /* mobile menu */
+        .login-btn {
+            margin-right: 21px;
+        }
+
+        .banner {
+            flex-direction: column;
+            align-items: center;
+            padding-left: 15px;
+            padding-top: 0;
+            width: 360px;
+        }
+
+        .banner-left {
+            width: 278px;
+            height: 168px;
+            margin-left: 16px;
+        }
+
+        .banner-left h1 {
+            font-size: 34px;
+            width: 278px;
+
+        }
+
+        .banner-right {
+            margin-top: 182px;
+        }
+
+        .banner-right img {
+            width: 329px;
+            height: 259px;
+
+        }
+
+        .container {
+            width: 100%;
+            margin-left: 0;
+            padding-top: 0;
+        }
+
+        .containers {
+            width: 100%;
+            margin-left: 0;
+        }
+
+        .players {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .match {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            width: 100%;
+            padding-top: 0;
+
+        }
+
+        .match h1 {
+            width: 100%;
+            height: auto;
+        }
+
+        .match img {
+            width: 100%;
+            height: auto;
+            margin-top: 75px;
+        }
+
+        .half-width {
+            width: 100%;
+            margin-right: 0px;
+            padding-bottom: 0px;
+            height: auto;
+        }
+
+        .half-width p {
+            display: 100%;
+        }
+
+
+
+
+        footer {
+            text-align: center;
+            margin-top: 36px;
+        }
+
+        .football img {
+            width: 90%;
+        }
+
     }
-
-    .subscribe h1 {
-        font-size: 20px;
-        color: white;
-    }
-
-    .subscribe p {
-        font-size: 10px;
-        color: #ffffff;
-    }
-
-    .watch-videos {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-/* Mobile devices */
-@media only screen and (max-width:688px) {
-    header {
-        height: 695px;
-    }
-
-    .container {
-        max-width: 100%;
-    }
-
-    .blog-section {
-        width: 100%;
-        margin-top: 47px;
-    }
-
-    .menu {
-        display: none;
-    }
-
-    .nav-bar {
-        display: none;
-    }
-
-
-    /* mobile menu */
-    .login-btn {
-        margin-right: 21px;
-    }
-
-    .banner {
-        flex-direction: column;
-        align-items: center;
-        padding-left: 15px;
-        padding-top: 0;
-        width: 360px;
-    }
-
-    .banner-left {
-        width: 278px;
-        height: 168px;
-        margin-left: 16px;
-    }
-
-    .banner-left h1 {
-        font-size: 34px;
-        width: 278px;
-
-    }
-
-    .banner-right {
-        margin-top: 182px;
-    }
-
-    .banner-right img {
-        width: 329px;
-        height: 259px;
-
-    }
-
-    .container {
-        width: 100%;
-        margin-left: 0;
-        padding-top: 0;
-    }
-
-    .containers {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    .players {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .match {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        width: 100%;
-        padding-top: 0;
-
-    }
-
-    .match h1 {
-        width: 100%;
-        height: auto;
-    }
-
-    .match img {
-        width: 100%;
-        height: auto;
-        margin-top: 75px;
-    }
-
-    .half-width {
-        width: 100%;
-        margin-right: 0px;
-        padding-bottom: 0px;
-        height: auto;
-    }
-
-    .half-width p {
-        display: 100%;
-    }
-
-
-
-
-    footer {
-        text-align: center;
-        margin-top: 36px;
-    }
-
-    .football img {
-        width: 90%;
-    }
-
-}
