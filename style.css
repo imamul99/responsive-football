@@ -204,7 +204,7 @@ footer {
 
     /* footer-part-end */
     /* Media Queries */
-    /* tablet */
+
     @media only screen and (min-width:689px) and (max-width:1024px) {
         .container {
             max-width: 100%;
@@ -308,10 +308,6 @@ footer {
                 padding-top: 0;
             }
 
-            .containers {
-                width: 100%;
-                margin-left: 0;
-            }
 
             .players {
                 display: flex;
@@ -350,9 +346,6 @@ footer {
                 display: 100%;
             }
 
-
-
-
             footer {
                 text-align: center;
                 margin-top: 36px;
@@ -361,5 +354,3 @@ footer {
             .football img {
                 width: 90%;
             }
-
-        }
